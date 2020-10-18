@@ -40,6 +40,6 @@ module.exports = {
         'no-misleading-character-class': ['error'],
         'no-obj-calls':                  ['error'],
         'no-promise-executor-return':    ['error'],
-        'no-prototype-builtins':         ['error']
+        'no-prototype-builtins':         ['error'] // PAUSED
     }
 };
