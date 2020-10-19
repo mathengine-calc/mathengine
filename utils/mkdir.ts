@@ -8,7 +8,7 @@ import {  } from './index';
 
 // Util file (readdir)
 
-export async function mkdir(path: string): Promise<string[]> {
+export async function mkdir(path: string): Promise<undefined> {
     return new Promise((resolve, reject) => {
         fs.mkdir(path, (err) => {
             if (err) {
