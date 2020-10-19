@@ -12,6 +12,17 @@ module.exports = {
         'plugin:@typescript-eslint/recommended'
     ],
     rules: {
+        /* NOTE ---------------------------------- */
+        // All headers should contain 25 "=" in the
+        // ending side and use a max length of 25.
+        //
+        // Example footer:
+        // /* ===================================== */
+        /* ===================================== */
+        /* POSSIBLE ERRORS ----------------------- */
+        // These rules relate to possible syntax or
+        // logic errors in the code.
+        /* ======================================= */
         'for-direction':                 ['error', { allowImplicit: false }],
         'getter-return':                 ['error'],
         'no-async-promise-executor':     ['warn'],
@@ -40,6 +51,24 @@ module.exports = {
         'no-misleading-character-class': ['error'],
         'no-obj-calls':                  ['error'],
         'no-promise-executor-return':    ['error'],
-        'no-prototype-builtins':         ['error'] // PAUSED
+        'no-prototype-builtins':         ['error'],
+        'no-regex-spaces':               ['warn'],
+        'no-setter-return':              ['error'],
+        'no-sparse-arrays':              ['error'],
+        'no-template-curly-in-string':   ['warn'],
+        'no-unexpected-multiline':       ['error'],
+        'no-unreachable':                ['error'],
+        'no-unreachable-loop':           ['error'],
+        'no-unsafe-finally':             ['error'],
+        'no-unsafe-negation':            ['error'],
+        'use-isnan':                     ['warn'],
+        'valid-typeof':                  ['error'],
+
+        /* BEST PRACTICES ---------------------- */
+        // These rules relate to better ways of
+        // doing things to help avoid problems
+        // in the codebase.
+        /* ===================================== */
+
     }
 };
