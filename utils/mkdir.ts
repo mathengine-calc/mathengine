@@ -10,7 +10,7 @@ import {  } from './index';
 
 export async function mkdir(path: string): Promise<string[]> {
     return new Promise((resolve, reject) => {
-        fs.mkdir(path, 'utf-8', (err) => {
+        fs.mkdir(path, (err) => {
             if (err) {
                 reject(err);
             } else {
