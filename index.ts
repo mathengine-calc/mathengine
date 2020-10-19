@@ -12,7 +12,7 @@ import * as inquirer from 'inquirer';
     const df: string[] = await utils.readdir('./mathengine/').catch(async (e: string) => {
         console.log('No ./mathengine/ directory! Creating it...');
         await utils.mkdir('./mathengine/').catch((e2: string) => {
-            console.error(`Failed to write directory ./mathengine/: ${e2}`);
+            utils.fserr('write', './mathengine/', e2);
             process.exit(1);
         });
         
@@ -20,5 +20,4 @@ import * as inquirer from 'inquirer';
         // as expected.
         return [];
     });
-    console.log(df);
 })();
