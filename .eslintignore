@@ -3,3 +3,7 @@ node_modules
 
 # and, don't lint compiled js
 *.js
+
+# skip packager files
+package.json
+package-lock.json
