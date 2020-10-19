@@ -1,7 +1,0 @@
-tasks:
-  - init: npm install
-    command: tsc
-
-vscode:
-  extensions:
-    - dbaeumer.vscode-eslint@2.1.8:02aHhbJ0Q4aGdjHXlTdVKg==
