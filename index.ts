@@ -9,5 +9,5 @@ import * as inquirer from 'inquirer';
 
 // Main
 (async function() {
-    await utils.readFile('./mathengine/')
+    await utils.readFile('./mathengine/');
 })();
