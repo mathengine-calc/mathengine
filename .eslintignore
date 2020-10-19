@@ -1,2 +1,5 @@
 # don't lint modules
 node_modules
+
+# and, don't lint compiled js
+*.js

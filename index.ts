@@ -9,7 +9,7 @@ import * as inquirer from 'inquirer';
 
 // Main
 (async function() {
-    let df: string[] = await utils.readdir('./mathengine/').catch(async (e: string) => {
+    const df: string[] = await utils.readdir('./mathengine/').catch(async (e: string) => {
         console.log('No ./mathengine/ directory! Creating it...');
         await utils.mkdir('./mathengine/').catch((e2: string) => {
             console.error(`Failed to write directory ./mathengine/: ${e2}`);
