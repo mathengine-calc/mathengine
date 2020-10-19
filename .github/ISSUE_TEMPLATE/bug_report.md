@@ -47,3 +47,95 @@ I expected [...] to [...]
     What happened?
 -->
 [...] did [...] with [...]
+
+## Environment
+<!--
+    Let's understand what you were using when you found this bug.
+-->
+
+### Operating System
+<!--
+    Fill in the box of the OS you are using.
+    
+    Check the box by changing "- [ ] text" to "- [x] text"
+    
+    BEFORE:
+    - [ ] Windows
+    - [ ] macOS
+    - [ ] Linux
+    
+    AFTER:
+    - [x] Windows
+    - [ ] macOS
+    - [ ] Linux
+    
+    Or, check the box after creating the issue.
+-->
+- [ ] Windows
+- [ ] macOS
+- [ ] Linux
+
+#### OS Version
+<!--
+    What version are you using?
+-->
+1.2.3
+
+#### Linux Distro
+<!--
+    If you are using Linux, what distro are you using?
+-->
+N/A
+
+### MathEngine
+
+#### MathEngine Version
+<!--
+    What version are you using?
+-->
+1.2.3
+
+#### Release Channel
+<!--
+    What release channel?
+    This determines the upload schedule you are getting.
+    If you aren't sure, choose "latest".
+    
+    Check the box by changing "- [ ] text" to "- [x] text"
+    
+    BEFORE:
+    - [ ] Windows
+    - [ ] macOS
+    - [ ] Linux
+    
+    AFTER:
+    - [x] Windows
+    - [ ] macOS
+    - [ ] Linux
+    
+    Or, check the box after creating the issue.
+-->
+- [ ] `latest`
+- [ ] `beta`
+- [ ] `alpha`
+- [ ] `dev`
+
+#### Plugins
+<!--
+    Are you using any MathEngine plugins?
+-->
+- `plugin1`
+- `plugin2`
+
+#### Operation Packs
+<!--
+    Do you have any other operation packs installed?
+-->
+- `operation1`
+- `operation2`
+- `operation3`
+
+## Anything else?
+<!--
+    Anything else you want to tell the team about the bug?
+-->
