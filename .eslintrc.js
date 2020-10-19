@@ -69,6 +69,71 @@ module.exports = {
         // doing things to help avoid problems
         // in the codebase.
         /* ===================================== */
+        'accessor-pairs':                ['warn'],
+        'array-callback-return':         ['error'],
+        'block-scoped-var':              ['error'],
+        'consistent-return':             ['warn'],
+        'curly':                         ['error', 'all'],
+        'default-case':                  ['warn'],
+        'default-case-last':             ['error'],
+        'default-param-last':            ['warn'],
+        'dot-location':                  ['warn', 'property'],
+        'dot-notation':                  ['error'],
+        'eqeqeq':                        ['error'],
+        'grouped-accessor-pairs':        ['warn', 'getBeforeSet'],
+        'no-case-declarations':          ['off'],
+        'no-constructor-return':         ['error'],
+        'no-div-regex':                  ['warn'],
+        'no-else-return':                ['off'],
+        'no-empty-function':             ['warn'],
+        'no-empty-pattern':              ['off'],
+        'no-eq-null':                    ['warn'],
+        'no-eval':                       ['warn'],
+        'no-extend-native':              ['off'],
+        'no-fallthrough':                ['off'],
+        'no-floating-decimal':           ['warn'],
+        'no-global-assign':              ['error'],
+        'no-invalid-this':               ['error'],
+        
+        /* VARIABLES --------------------------- */
+        // These rules relate to variables and
+        // variable declarations.
+        /* ===================================== */
+        'no-unused-vars':                ['off'],
+        'no-undef':                      ['error'],
+        'no-use-before-define':          ['error'],
 
+        /* STYLES ------------------------------ */
+        // These rules relate to styling of code
+        // within the codebase. For example:
+        //
+        // [JAVASCRIPT]
+        // if (foo) {
+        //   bar();
+        // }
+        //
+        // Uses 2 spaces, instead of 4 spaces:
+        //
+        // [JAVASCRIPT]
+        // if (foo) {
+        //     bar();
+        // }
+        /* ===================================== */
+        'array-bracket-newline':         ['warn', 'consistent'],
+        'array-bracket-spacing':         ['warn', 'consistent'],
+        'array-element-newline':         ['warn', 'consistent'],
+        'block-spacing':                 ['error', 'always'],
+        'brace-style':                   ['error', '1tbs'],
+        'camelcase':                     ['warn'],
+        'capitalized-comments':          ['warn', 'always'],
+        'comma-dangle':                  ['error', 'never'],
+        'comma-spacing':                 ['error', { before: false, after: true }],
+        'comma-style':                   ['error', 'last'],
+        'computed-property-spacing':     ['warn', 'never'],
+        'eol-last':                      ['error', 'always'],
+        'func-call-spacing':             ['error', 'never'],
+        'func-name-matching':            ['error', 'always'],
+        'func-style':                    ['error', 'declaration'],
+        'indent':                        ['error', 4]
     }
 };
