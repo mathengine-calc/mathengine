@@ -9,15 +9,9 @@ import * as inquirer from 'inquirer';
 
 // Main
 (async function() {
-    const df: string[] = await utils.readdir('./mathengine/').catch(async (e: string) => {
-        console.log('No ./mathengine/ directory! Creating it...');
-        await utils.mkdir('./mathengine/').catch((e2: string) => {
-            utils.fserr('write', './mathengine/', e2);
-            process.exit(1);
-        });
-        
-        // We have to return an empty array for type-checking to go through
-        // as expected.
-        return [];
+    const dircont: string[] = await utils.readdir('./mathengine/').catch((e: string) => {
+        console.error('No ./mathengine/ directory?');
+        process.exit(1);
     });
+    console.log(dircont);
 })();
